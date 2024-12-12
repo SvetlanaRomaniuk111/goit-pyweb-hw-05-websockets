@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-pyweb-hw-05-websockets"
+version = "0.1.0"
+description = ""
+authors = ["SvetlanaRomaniuk111 <gatskosv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiofile = "^3.9.0"
+aiopath = "^0.7.7"
+aiohttp = "^3.11.10"
+names = "^0.3.0"
+websockets = "^14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

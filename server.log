@@ -1,0 +1,75 @@
+[2024-12-13 01:46:29] Command: exchange
+Result:
+[
+  {
+    "ccy": "EUR",
+    "base_ccy": "UAH",
+    "buy": "43.30000",
+    "sale": "44.30000"
+  },
+  {
+    "ccy": "USD",
+    "base_ccy": "UAH",
+    "buy": "41.25000",
+    "sale": "41.85000"
+  }
+]
+
+[2024-12-13 01:46:43] Command: exchange 2
+Result:
+[
+  {
+    "12.12.2024": {
+      "USD": {
+        "sale": 41.85,
+        "purchase": 41.25
+      },
+      "EUR": {
+        "sale": 44.35,
+        "purchase": 43.35
+      }
+    }
+  },
+  {
+    "11.12.2024": {
+      "USD": {
+        "sale": 41.9,
+        "purchase": 41.3
+      },
+      "EUR": {
+        "sale": 44.35,
+        "purchase": 43.35
+      }
+    }
+  }
+]
+
+[2024-12-13 01:47:11] Command: exchange 2 EUR CHF
+Result:
+[
+  {
+    "12.12.2024": {
+      "EUR": {
+        "sale": 44.35,
+        "purchase": 43.35
+      },
+      "CHF": {
+        "sale": 47.43,
+        "purchase": 46.75
+      }
+    }
+  },
+  {
+    "11.12.2024": {
+      "EUR": {
+        "sale": 44.35,
+        "purchase": 43.35
+      },
+      "CHF": {
+        "sale": 47.43,
+        "purchase": 46.75
+      }
+    }
+  }
+]
+
